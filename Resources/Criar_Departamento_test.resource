@@ -25,7 +25,7 @@ ${validação_mensagem}    <div class="MuiAlert-message css-1xsto0d">Não é pos
 
 *** Keywords ***
 Abrir Navegador
-    Open Browser    browser=chrome
+    Open Browser    browser=headlessfirefox
     Maximize Browser Window
 
 Fechar Navegador
